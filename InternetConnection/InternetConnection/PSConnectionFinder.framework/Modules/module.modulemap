@@ -1,0 +1,11 @@
+framework module PSConnectionFinder {
+  umbrella header "PSConnectionFinder.h"
+
+  export *
+  module * { export * }
+}
+
+module PSConnectionFinder.Swift {
+    header "PSConnectionFinder-Swift.h"
+    requires objc
+}
